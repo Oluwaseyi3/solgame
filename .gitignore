@@ -12,6 +12,14 @@ dist
 dist-ssr
 *.local
 
+api.js
+check.js
+idl.js
+help.js
+rugpull.js
+server.js
+test-token-creation.js
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
