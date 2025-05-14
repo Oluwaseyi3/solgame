@@ -20,6 +20,8 @@ rugpull.js
 server.js
 test-token-creation.js
 
+.env
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
