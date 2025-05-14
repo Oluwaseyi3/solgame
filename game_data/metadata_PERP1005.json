@@ -1,0 +1,31 @@
+{
+  "name": "PERP1005",
+  "symbol": "P5",
+  "description": "PerpRug is a decentralized meme token for the community.",
+  "image": "https://res.cloudinary.com/seyi-codes/image/upload/v1747102661/APbP7hYraQeMQ4y8apApy3zeeHCkNcd6_v1qvcj.png",
+  "external_url": "https://perprug.fun/",
+  "attributes": [
+    {
+      "trait_type": "Community",
+      "value": "Telegram"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://res.cloudinary.com/seyi-codes/image/upload/v1747102661/APbP7hYraQeMQ4y8apApy3zeeHCkNcd6_v1qvcj.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "E6kXkDXkaNXd5eFcREmeEXxTrLT9HWHRhTTcjMTAeepQ",
+        "share": 100
+      }
+    ]
+  },
+  "extensions": {
+    "telegram": "https://t.me/PerpRug"
+  }
+}

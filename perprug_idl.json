@@ -1,0 +1,477 @@
+{
+    "version": "0.1.0",
+    "name": "perprug",
+    "instructions": [
+        {
+            "name": "initializeGameSystem",
+            "accounts": [
+                {
+                    "name": "gameSystem",
+                    "isMut": true,
+                    "isSigner": true
+                },
+                {
+                    "name": "authority",
+                    "isMut": true,
+                    "isSigner": true
+                },
+                {
+                    "name": "treasury",
+                    "isMut": false,
+                    "isSigner": false
+                },
+                {
+                    "name": "systemProgram",
+                    "isMut": false,
+                    "isSigner": false
+                }
+            ],
+            "args": []
+        },
+        {
+            "name": "launchNewGame",
+            "accounts": [
+                {
+                    "name": "gameSystem",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "game",
+                    "isMut": true,
+                    "isSigner": true
+                },
+                {
+                    "name": "authority",
+                    "isMut": true,
+                    "isSigner": true
+                },
+                {
+                    "name": "tokenMint",
+                    "isMut": false,
+                    "isSigner": false
+                },
+                {
+                    "name": "ammId",
+                    "isMut": false,
+                    "isSigner": false
+                },
+                {
+                    "name": "lpMint",
+                    "isMut": false,
+                    "isSigner": false
+                },
+                {
+                    "name": "recentBlockhashes",
+                    "isMut": false,
+                    "isSigner": false
+                },
+                {
+                    "name": "systemProgram",
+                    "isMut": false,
+                    "isSigner": false
+                }
+            ],
+            "args": [
+                {
+                    "name": "tokenName",
+                    "type": "string"
+                },
+                {
+                    "name": "tokenSymbol",
+                    "type": "string"
+                },
+                {
+                    "name": "minRugpullSeconds",
+                    "type": "u64"
+                },
+                {
+                    "name": "maxRugpullSeconds",
+                    "type": "u64"
+                },
+                {
+                    "name": "seed",
+                    "type": "u64"
+                }
+            ]
+        },
+        {
+            "name": "rugpull",
+            "accounts": [
+                {
+                    "name": "gameSystem",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "game",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "authority",
+                    "isMut": false,
+                    "isSigner": true
+                }
+            ],
+            "args": []
+        },
+        {
+            "name": "emergencyRugpull",
+            "accounts": [
+                {
+                    "name": "gameSystem",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "game",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "authority",
+                    "isMut": false,
+                    "isSigner": true
+                }
+            ],
+            "args": []
+        },
+        {
+            "name": "updateGameSystem",
+            "accounts": [
+                {
+                    "name": "gameSystem",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "authority",
+                    "isMut": false,
+                    "isSigner": true
+                }
+            ],
+            "args": [
+                {
+                    "name": "newTreasury",
+                    "type": {
+                        "option": "publicKey"
+                    }
+                },
+                {
+                    "name": "isPaused",
+                    "type": {
+                        "option": "bool"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "updateProtocolFee",
+            "accounts": [
+                {
+                    "name": "gameSystem",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "authority",
+                    "isMut": false,
+                    "isSigner": true
+                }
+            ],
+            "args": [
+                {
+                    "name": "newFeeBps",
+                    "type": "u16"
+                }
+            ]
+        },
+        {
+            "name": "recordTrade",
+            "accounts": [
+                {
+                    "name": "gameSystem",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "game",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "trader",
+                    "isMut": true,
+                    "isSigner": true
+                }
+            ],
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "u64"
+                },
+                {
+                    "name": "price",
+                    "type": "u64"
+                },
+                {
+                    "name": "isBuy",
+                    "type": "bool"
+                }
+            ]
+        }
+    ],
+    "accounts": [
+        {
+            "name": "GameSystem",
+            "type": {
+                "kind": "struct",
+                "fields": [
+                    {
+                        "name": "authority",
+                        "type": "publicKey"
+                    },
+                    {
+                        "name": "tokenCounter",
+                        "type": "u64"
+                    },
+                    {
+                        "name": "totalGames",
+                        "type": "u64"
+                    },
+                    {
+                        "name": "activeGames",
+                        "type": "u8"
+                    },
+                    {
+                        "name": "totalVolume",
+                        "type": "u64"
+                    },
+                    {
+                        "name": "treasury",
+                        "type": "publicKey"
+                    },
+                    {
+                        "name": "protocolFeeBps",
+                        "type": "u16"
+                    },
+                    {
+                        "name": "isPaused",
+                        "type": "bool"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "GameState",
+            "type": {
+                "kind": "struct",
+                "fields": [
+                    {
+                        "name": "authority",
+                        "type": "publicKey"
+                    },
+                    {
+                        "name": "tokenMint",
+                        "type": "publicKey"
+                    },
+                    {
+                        "name": "tokenName",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tokenSymbol",
+                        "type": "string"
+                    },
+                    {
+                        "name": "ammId",
+                        "type": "publicKey"
+                    },
+                    {
+                        "name": "lpMint",
+                        "type": "publicKey"
+                    },
+                    {
+                        "name": "startTime",
+                        "type": "u64"
+                    },
+                    {
+                        "name": "rugpullTime",
+                        "type": "u64"
+                    },
+                    {
+                        "name": "isRugged",
+                        "type": "bool"
+                    },
+                    {
+                        "name": "actualRugTime",
+                        "type": "u64"
+                    },
+                    {
+                        "name": "gameIndex",
+                        "type": "u64"
+                    },
+                    {
+                        "name": "totalVolume",
+                        "type": "u64"
+                    }
+                ]
+            }
+        }
+    ],
+    "events": [
+        {
+            "name": "GameLaunched",
+            "fields": [
+                {
+                    "name": "tokenName",
+                    "type": "string",
+                    "index": false
+                },
+                {
+                    "name": "tokenSymbol",
+                    "type": "string",
+                    "index": false
+                },
+                {
+                    "name": "tokenMint",
+                    "type": "publicKey",
+                    "index": false
+                },
+                {
+                    "name": "ammId",
+                    "type": "publicKey",
+                    "index": false
+                },
+                {
+                    "name": "startTime",
+                    "type": "u64",
+                    "index": false
+                },
+                {
+                    "name": "rugpullTime",
+                    "type": "u64",
+                    "index": false
+                }
+            ]
+        },
+        {
+            "name": "GameRugged",
+            "fields": [
+                {
+                    "name": "tokenName",
+                    "type": "string",
+                    "index": false
+                },
+                {
+                    "name": "tokenMint",
+                    "type": "publicKey",
+                    "index": false
+                },
+                {
+                    "name": "rugpullTime",
+                    "type": "u64",
+                    "index": false
+                }
+            ]
+        },
+        {
+            "name": "EmergencyGameRugged",
+            "fields": [
+                {
+                    "name": "tokenName",
+                    "type": "string",
+                    "index": false
+                },
+                {
+                    "name": "tokenMint",
+                    "type": "publicKey",
+                    "index": false
+                },
+                {
+                    "name": "rugpullTime",
+                    "type": "u64",
+                    "index": false
+                }
+            ]
+        },
+        {
+            "name": "TradeRecorded",
+            "fields": [
+                {
+                    "name": "tokenMint",
+                    "type": "publicKey",
+                    "index": false
+                },
+                {
+                    "name": "trader",
+                    "type": "publicKey",
+                    "index": false
+                },
+                {
+                    "name": "amount",
+                    "type": "u64",
+                    "index": false
+                },
+                {
+                    "name": "price",
+                    "type": "u64",
+                    "index": false
+                },
+                {
+                    "name": "isBuy",
+                    "type": "bool",
+                    "index": false
+                },
+                {
+                    "name": "timestamp",
+                    "type": "u64",
+                    "index": false
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "code": 6000,
+            "name": "GameSystemPaused",
+            "msg": "Game system is paused"
+        },
+        {
+            "code": 6001,
+            "name": "InvalidTokenName",
+            "msg": "Invalid token name, must start with PERP"
+        },
+        {
+            "code": 6002,
+            "name": "GameAlreadyActive",
+            "msg": "A game is already active"
+        },
+        {
+            "code": 6003,
+            "name": "GameAlreadyRugged",
+            "msg": "Game is already rugged"
+        },
+        {
+            "code": 6004,
+            "name": "RugpullTimeNotReached",
+            "msg": "Rugpull time not reached yet"
+        },
+        {
+            "code": 6005,
+            "name": "EmergencyTimeNotReached",
+            "msg": "Emergency time threshold not reached"
+        },
+        {
+            "code": 6006,
+            "name": "FeeTooHigh",
+            "msg": "Fee percentage too high"
+        },
+        {
+            "code": 6007,
+            "name": "Unauthorized",
+            "msg": "Unauthorized"
+        }
+    ]
+}

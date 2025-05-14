@@ -1,0 +1,472 @@
+[
+  {
+    "tokenName": "TEST1",
+    "tokenSymbol": "T1",
+    "tokenMint": "6x51vBTrpUvRcFTMTaHDtngsh2UY4FnBGmSGrNmCGCdS",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1746967856,
+    "rugpullOffsetSeconds": 88,
+    "scheduledRugTime": 1746967944,
+    "operatorTokenAccount": "3NrT7Da3M3YecNZU95TeAdk5W5wfNGGt8dqvC5h7qfwN",
+    "poolId": "CX5cyRf2743jsJoyoWHmFGUvfMn6A8ADBkfHxvsZb9gP",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "2Mz49eAaJFvz3GmweFsTTybE9zesuQ48DYt6hrNSQq7zHGAsPgU9PpkABsMpCvwu142F7Tbw6KP3RmyqKFN74tiX",
+      "3DK7EyPpPbenfXwVRF91GGUjbQqwRuwGtS955qDggKYTDvbrSNq36roJcyzjC6Ts2egXSjpDnAfpJs9y1kUXKALc"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "5wxTPyzYQnobPua8xrW2seAkWEEvcStLmEoNmR4EX6pq",
+    "initialSolAmount": 0.05,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1746984323,
+    "rugSuccessful": false,
+    "treasuryTransferred": false,
+    "amountRugged": {}
+  },
+  {
+    "tokenName": "TEST2",
+    "tokenSymbol": "T2",
+    "tokenMint": "7UZh6wt91BwdAdZCGV5JcNx6GmYod7ETwH5ju5nHAFXH",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1746984353,
+    "rugpullOffsetSeconds": 1403,
+    "scheduledRugTime": 1746985756,
+    "operatorTokenAccount": "9HXc7AP3dU1J83sAeQ2rQPWJaJiHLiSDAvLgoXdet5An",
+    "poolId": "4WwSePivNxH92qi3kNEzJTFA1CJmEYp9rDfaVJERqUBw",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "4xiHve5eZF92xWRsojH7keNfPDeUR7py6QoijqjiyZiZQkGsZjxVVqEXjPfNaJMzwEZuUvbqWhms2FR7WU6duwau",
+      "3v8FEVuuuDctpbmmjCPYNDX9SttZWRf2sHnR8c2z2gxAaEa2oQuzF9HXtJZpruF591A58mKUufBVqKmexYAF27FQ"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "5wxTPyzYQnobPua8xrW2seAkWEEvcStLmEoNmR4EX6pq",
+    "initialSolAmount": 0.05,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1746985965,
+    "rugSuccessful": false,
+    "treasuryTransferred": false,
+    "amountRugged": {}
+  },
+  {
+    "tokenName": "TEST3",
+    "tokenSymbol": "T3",
+    "tokenMint": "4mf6immJreuu8jzxjTEaTJ4LZyeKY4YFrhu3QbCKLNJK",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1746986720,
+    "rugpullOffsetSeconds": 951,
+    "scheduledRugTime": 1746987671,
+    "operatorTokenAccount": "6mSXMUXBN45QPqZJ9mwAp2PTHd43ircjMHHPFBHTg9bS",
+    "poolId": "DFUjMQnLPFxSMYeDPKCZRxNDwnMMdkopXwYFoLndhp1o",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "e9BHGU2YpDE83JUcTJtq1sceo7gvnSYPvdwvZKbk9bMGvkLBFGjXmcMPRwvJ2TgBpbbvM3qJqThTRToeXWMKykz",
+      "4kQXk8i6sYs43i7St3ASwX13A3vWVjAUm95sRSzbwnQtJBQwmSvnCepRwY7N3RibAbTKVdTm7uUhFMuVk7hnrcfF"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "5wxTPyzYQnobPua8xrW2seAkWEEvcStLmEoNmR4EX6pq",
+    "initialSolAmount": 0.05,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1746988504,
+    "rugSuccessful": false,
+    "treasuryTransferred": false,
+    "amountRugged": {}
+  },
+  {
+    "tokenName": "TEST3",
+    "tokenSymbol": "T3",
+    "tokenMint": "4mf6immJreuu8jzxjTEaTJ4LZyeKY4YFrhu3QbCKLNJK",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1746986720,
+    "rugpullOffsetSeconds": 951,
+    "scheduledRugTime": 1746987671,
+    "operatorTokenAccount": "6mSXMUXBN45QPqZJ9mwAp2PTHd43ircjMHHPFBHTg9bS",
+    "poolId": "DFUjMQnLPFxSMYeDPKCZRxNDwnMMdkopXwYFoLndhp1o",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "e9BHGU2YpDE83JUcTJtq1sceo7gvnSYPvdwvZKbk9bMGvkLBFGjXmcMPRwvJ2TgBpbbvM3qJqThTRToeXWMKykz",
+      "4kQXk8i6sYs43i7St3ASwX13A3vWVjAUm95sRSzbwnQtJBQwmSvnCepRwY7N3RibAbTKVdTm7uUhFMuVk7hnrcfF"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "5wxTPyzYQnobPua8xrW2seAkWEEvcStLmEoNmR4EX6pq",
+    "initialSolAmount": 0.05,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1746988504,
+    "rugSuccessful": false,
+    "treasuryTransferred": false,
+    "amountRugged": {}
+  },
+  {
+    "tokenName": "TEST4",
+    "tokenSymbol": "T4",
+    "tokenMint": "U7EaF5W1BGQo7ZfBJ3BodP3GDWVzPuYMVfNVim25LYR",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1746991517,
+    "rugpullOffsetSeconds": 2469,
+    "scheduledRugTime": 1746993986,
+    "operatorTokenAccount": "DweBZYMXxjr9ESsWKbzkY2mPi3PfB5NTs1VvPFDw3rCx",
+    "poolId": "GgJorKDdbumuPWtduNJf8GANkLpUqf4i8thj7UoHQV7m",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "3vyez8maLaVpWxqKXkVYrVcsSmextcoZzUvMXWExycMb3zond7evAT48Mpm3L2kHAd2dGaziG16qUxzSEEhTgGo9",
+      "2RWubU2WS7m9a2uasgksA4ewvjQKxMHVHg6tLqwpL3cFn2V1YG4uGcUrBeEqxcFMMb1Wm3ZsGj833FnhDm2AjuzC"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "5wxTPyzYQnobPua8xrW2seAkWEEvcStLmEoNmR4EX6pq",
+    "initialSolAmount": 0.05,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1746994041,
+    "rugSuccessful": true,
+    "treasuryTransferred": true,
+    "amountRugged": {
+      "tokens": "99567",
+      "sol": "0"
+    },
+    "rugTxid": "2aVo11X6RsdVpqBhL7WFdiVmwbTgfw7FRnHeJNZoER1H6HtWrJfXnKuW9uuHRSrPmiNtDuuMuCXvpux8PYw6dE8r"
+  },
+  {
+    "tokenName": "TEST5",
+    "tokenSymbol": "T5",
+    "tokenMint": "CqQd2z8BzakNi2jNXnqrLMKcJQ9RboWnrQ8CVTnaFTvu",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1747006326,
+    "rugpullOffsetSeconds": 3486,
+    "scheduledRugTime": 1747009812,
+    "operatorTokenAccount": "2RBUZKR3hbXdsRSfZprgyDSsMatdwWjg9URPQnQGexwq",
+    "poolId": "DVSFnXX1D2JjmBa2WZTrT68MdMSZjepgKJSh5Br9XLVq",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "4enGRfJFGBBFgarM4Bo3MWNxaVmJjuHFNPEK4XMFVgdPVJabtTEvt3PTzGYmZuqmD3kQo8ytP7N9Z66Mga1ZeibD",
+      "W6uYXt76GMbanwf979fbTSXbmaTwxsx1eJspTyvGZKw18XfyF5darJpvb3cm5RK95CvmjxrDUxBPU4tGzDiPr4u"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "5wxTPyzYQnobPua8xrW2seAkWEEvcStLmEoNmR4EX6pq",
+    "initialSolAmount": 0.05,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1747009862,
+    "rugSuccessful": false,
+    "treasuryTransferred": false,
+    "amountRugged": {}
+  },
+  {
+    "tokenName": "TEST6",
+    "tokenSymbol": "T6",
+    "tokenMint": "DiWcYnT9SqBoxGhsjv5NW1AAs2z5dbpxMfCchUjtJMZm",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1747009885,
+    "rugpullOffsetSeconds": 1406,
+    "scheduledRugTime": 1747011291,
+    "operatorTokenAccount": "CLL1opMxb1Kuab5coXkKjSxchx2JnAZww2PJXs8evr83",
+    "poolId": "EMjHkvEPXpcR6AMGbeV59vABPnm5H6JB5DyLhzMLs6Fr",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "vRjt348WTiMkXECFU6xKTTJqCJLEDY79SuRs69dWudB9o2uu5AiPKuhRnftfhafJ9a8Qxz3aePcHGBNu7V5aPxS",
+      "3KZYQi4xsENNzEMCA6NY3P8GXKV7XkXW25cmKfnyBVKq2KJMeNWEtxdj2vMeksNzGt3RKkcZ3P75cVwYVDavhuaC"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "5wxTPyzYQnobPua8xrW2seAkWEEvcStLmEoNmR4EX6pq",
+    "initialSolAmount": 0.05,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1747011310,
+    "rugSuccessful": true,
+    "treasuryTransferred": false,
+    "amountRugged": {
+      "tokens": "94781",
+      "sol": "0"
+    },
+    "rugTxid": "Ls79KL42k7dwUhA26ydqjqedopuSqPsQmibdBEM9ob6bbEiduueYXu2ZSmvRUSN6JvfrnR4gYN12LsqND4WCynN"
+  },
+  {
+    "tokenName": "TEST6",
+    "tokenSymbol": "T6",
+    "tokenMint": "DiWcYnT9SqBoxGhsjv5NW1AAs2z5dbpxMfCchUjtJMZm",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1747009885,
+    "rugpullOffsetSeconds": 1406,
+    "scheduledRugTime": 1747011291,
+    "operatorTokenAccount": "CLL1opMxb1Kuab5coXkKjSxchx2JnAZww2PJXs8evr83",
+    "poolId": "EMjHkvEPXpcR6AMGbeV59vABPnm5H6JB5DyLhzMLs6Fr",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "vRjt348WTiMkXECFU6xKTTJqCJLEDY79SuRs69dWudB9o2uu5AiPKuhRnftfhafJ9a8Qxz3aePcHGBNu7V5aPxS",
+      "3KZYQi4xsENNzEMCA6NY3P8GXKV7XkXW25cmKfnyBVKq2KJMeNWEtxdj2vMeksNzGt3RKkcZ3P75cVwYVDavhuaC"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "5wxTPyzYQnobPua8xrW2seAkWEEvcStLmEoNmR4EX6pq",
+    "initialSolAmount": 0.05,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1747011310,
+    "rugSuccessful": true,
+    "treasuryTransferred": false,
+    "amountRugged": {
+      "tokens": "94781",
+      "sol": "0"
+    },
+    "rugTxid": "Ls79KL42k7dwUhA26ydqjqedopuSqPsQmibdBEM9ob6bbEiduueYXu2ZSmvRUSN6JvfrnR4gYN12LsqND4WCynN"
+  },
+  {
+    "tokenName": "TEST7",
+    "tokenSymbol": "T7",
+    "tokenMint": "GsR4DgZDQAFtDHUrymmgwGiQLUn39i7Bw7U29a5aVEPm",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1747089339,
+    "rugpullOffsetSeconds": 2315,
+    "scheduledRugTime": 1747091654,
+    "operatorTokenAccount": "Ji6JPBMfvRhodswgh2uKgX3tXtL5v89g3jBvNmrp1xh",
+    "poolId": "6dBZJpwh1j9ytxZQJeipDJxj5oAke1feBn5WfeshmQMY",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "nP9Zhp9i6G3HuKWSXKCchruxU9jDCX4Nez4deWDFGkqrKm6txr82cyhFuChYEv1z73MxWtsnNLPv3ubXxwwFfxd",
+      "bRELn9BE11vYT7QheYrXZuwArGWLkwtSpazzVdRXZLtMznR7jyYrudoNQx1H1avf52N6687Q5hTbh8dfrDwV9Zh"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "ERow8ZuFhRa7aRgMTD3UoonrbfkzEf9dEpjQfymbXfgy",
+    "initialSolAmount": 0.05,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1747091716,
+    "rugSuccessful": true,
+    "treasuryTransferred": false,
+    "amountRugged": {
+      "tokens": "86119",
+      "sol": "0"
+    },
+    "rugTxid": "371kqEEAR9tgsbKwzH6WqPprykqMtbirHg3XDX8UYS5kVnF5955gUWJerHNF6e4tVizgiArScskgSa4wL9skSzxs"
+  },
+  {
+    "tokenName": "PERP1001",
+    "tokenSymbol": "P1",
+    "tokenMint": "Dob3uCi4fAs5FxG5FVgSuej5zKBPAkxiyTGEAwoy3CjQ",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1747094487,
+    "rugpullOffsetSeconds": 917,
+    "scheduledRugTime": 1747095404,
+    "operatorTokenAccount": "GqN5Praq97LvqqiKF27NetEzYBw8ViAyKE6yYhTghxf2",
+    "poolId": "6AQJxignUPr71HXgXT14ZECMmqY5Gf6rnrvp4SKS6ykH",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "5NcqtCBnxTqYgHv2aaVHkqZkr435KrXyPy3vUaGkak893DQ5jC7sPYG49dn3JkQoYkkaF6S24rZosGRWHrfthf2B",
+      "5QpGFmfanufRGF37qVSPg2iZsXUFemnAcw8nC48TDomLvBC8XpFwFMaeiLZ3aojiuemLM5CMxx3rE8hLn3mjBqGp"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "ERow8ZuFhRa7aRgMTD3UoonrbfkzEf9dEpjQfymbXfgy",
+    "initialSolAmount": 0.1,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1747095439,
+    "rugSuccessful": true,
+    "treasuryTransferred": true,
+    "amountRugged": {
+      "tokens": "17033",
+      "sol": "0"
+    },
+    "rugTxid": "VxKYtvhfGYjEqo7LmPdSKNJ6kJAJ2oY8A3914camV7KYk9hvoSykaDgrkHxX8dmFd4mdhMp3rcMdiRJ81TMQfTo"
+  },
+  {
+    "tokenName": "PERP1003",
+    "tokenSymbol": "P3",
+    "tokenMint": "HANamHcmeygbPxNqFy5vJk3ELhWaEP47y4yLK9yRCTEt",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1747101598,
+    "rugpullOffsetSeconds": 1992,
+    "scheduledRugTime": 1747103590,
+    "operatorTokenAccount": "7npnd57JPy6QBnKvr7e24BHKJQgi5LAzvvJCJbimQZjH",
+    "poolId": "7WevzKFzxnrnDFgpxssGy9orujEhLxyhhDw6A3bjFSnc",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "3cVRg8yCJ9muZhvJXHakgiviU2Hu9shc6THah35PvXKMg2mYpnzVXuhWa2UpM1FkXPWBnotj5xrzfAUBKboASfTQ",
+      "5hzJVaqn1axypFZZn7a4yuThX4ksWJTaYGm6qG7JAdwkSkndny18UNswf7AUeKWQgHipz3Q5GGWMjwFxMwy6mDCb"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "ERow8ZuFhRa7aRgMTD3UoonrbfkzEf9dEpjQfymbXfgy",
+    "initialSolAmount": 2,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1747103640,
+    "rugSuccessful": false,
+    "treasuryTransferred": false,
+    "rugError": "executeRugpull is not defined"
+  },
+  {
+    "tokenName": "PERP1004",
+    "tokenSymbol": "P4",
+    "tokenMint": "HpwHPAkbBuuyw48jH9Bmhigq5xwnAUb5tgH4aWzosQT3",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1747105313,
+    "rugpullOffsetSeconds": 1375,
+    "scheduledRugTime": 1747106688,
+    "operatorTokenAccount": "3XD3vYvvYMFTvxCVCiXMa1geXGEZcFRjSPQTRoe32AYJ",
+    "poolId": "FKcZNiUmj7BSRsA1DTbaAWjTJXVa9iYDhhNYwW7Skty2",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "4hFbPCcXyZMt4S42Au1HMmRKPQsqH9Rd8CmCyu7thjsiLsYAasfpPCiVgcbZ5X6jhAZoozrxsLZ5CY3TK7vir4Hk",
+      "jqv4EkaHeowjb6xbuNdaGxFdKCuVn54duDyxUeUdwr9xGXfnTGGYRBVxRN5mGaHURPoDSFfpXEeTKp5kiqwzupB"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "ERow8ZuFhRa7aRgMTD3UoonrbfkzEf9dEpjQfymbXfgy",
+    "initialSolAmount": 0.5,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1747106700,
+    "rugSuccessful": false,
+    "treasuryTransferred": false,
+    "rugError": "Rugpull not executed as per configuration"
+  },
+  {
+    "tokenName": "PERP1005",
+    "tokenSymbol": "P5",
+    "tokenMint": "H1MYXDjMCZP675FxKMeLqCq7HF4yz1KNbFQgmuYu3pcP",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1747108900,
+    "rugpullOffsetSeconds": 1601,
+    "scheduledRugTime": 1747110501,
+    "operatorTokenAccount": "Bi8TakdtrSUA4a34tirvJhfZffqh4QSJHa3eB8MbvKH",
+    "poolId": "AvZgpdcdz2jeAxMweEVvLwX768ZBAdg3Uf5ynDCFFdRb",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "2En7NjE6oSS45qphYYrfSpgLMYnQBApdh7r4LDo4ks2ZBgHe2CB1AVqvNGWaVckNTzjZbyerekYsp5XS6H4cycyN",
+      "9P1DzHqAqSxyYhJ4u45TER5ndCsEEMQU9cLSaTe4nw7pxbXVDXc5chCVjJdC2xQTus9tWg5QYtvosmBoBdL1hAm"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "ERow8ZuFhRa7aRgMTD3UoonrbfkzEf9dEpjQfymbXfgy",
+    "initialSolAmount": 0.5,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1747110540,
+    "rugSuccessful": false,
+    "treasuryTransferred": false,
+    "rugError": "Rugpull not executed as per configuration"
+  },
+  {
+    "tokenName": "PERP1006",
+    "tokenSymbol": "P6",
+    "tokenMint": "2HuxsAzrJPrBwJF9NtDaCQSdcjMYGoGKvAy2Zo4FDCFw",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1747112458,
+    "rugpullOffsetSeconds": 1631,
+    "scheduledRugTime": 1747114089,
+    "operatorTokenAccount": "BhRQCeyauY8CTK8LJvYmrRmpmdv7xqso2eLj2qThjeFQ",
+    "poolId": "2SkV57o6LHxyS882481jMBxWJcoSFXjgzh1wGisz16Tq",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "2nWXBKbkXMS3tNLxq6xbTfN8a5nnuXs6NeD4bvkGi5Js67JiG21rZEKLr4kBVpr6azJFh9NTazxmsRxkZhpn1RLp",
+      "36oFstKknhMTRkgLeshbnRSSmYnn2MgD7QjhSUFEwJEwGpZtuJAMsZz23wNWXgizHE5wvBiZNgwBqG3PzTHfmJBU"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "ERow8ZuFhRa7aRgMTD3UoonrbfkzEf9dEpjQfymbXfgy",
+    "initialSolAmount": 0.5,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1747114140,
+    "rugSuccessful": false,
+    "treasuryTransferred": false,
+    "rugError": "Rugpull not executed as per configuration"
+  },
+  {
+    "tokenName": "PERP1007",
+    "tokenSymbol": "P7",
+    "tokenMint": "34d9wheeJkckhDHYiTXFAHgmbpKraGYPCAHv9de1Xa2K",
+    "tokenDecimals": 9,
+    "totalSupply": 1000000000,
+    "startTime": 1747172958,
+    "rugpullOffsetSeconds": 1252,
+    "scheduledRugTime": 1747174210,
+    "operatorTokenAccount": "FgZohzs2bsEAkeJHfE9uuGegifyg3m2osxhMF99JcrD5",
+    "poolId": "FPb4rEq2cpK9xCuz5jK4cfBh7FeE8HArxfgM53ZPe1wH",
+    "poolConfigKey": "MxnhNaNkt4kS5byYRPU7SbFbN2pixk1XePEEdTLE98s",
+    "poolCreationTxids": [
+      "3CryKvMwztXrQDE7ZrCJH5FxUTQiQWXC83pBaTUqVTsD5BNKnVdmswovr5cDD8cPRpZwFEvYFXKdPphUf2RTF4C9",
+      "c1Z7a1SP55QZMmt54tsHHw9Cjt35x75Cc88yHU3JfDAAZmoJdL9uzz9yecaKyVCcUVY8aNzth5y8snWPow1rz5x"
+    ],
+    "feeVaultConfig": {
+      "durationDays": 7,
+      "maxStakers": 1000,
+      "cooldownHours": 6
+    },
+    "treasuryWallet": "ERow8ZuFhRa7aRgMTD3UoonrbfkzEf9dEpjQfymbXfgy",
+    "initialSolAmount": 0.05,
+    "initialTokenAmount": 500000000,
+    "isRugged": true,
+    "actualRugTime": 1747253040,
+    "rugSuccessful": false,
+    "treasuryTransferred": false,
+    "rugError": "AmmImpl.create is not a function"
+  }
+]
